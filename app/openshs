@@ -15,9 +15,9 @@ from random import randrange, choice
 
 CONTEXTS = IndexedOrderedDict()
 CONTEXTS['morning'] = {'exe': 'blender/morning.blend',
-                         'start_dt': datetime.strptime("2016-02-01 08-00-00", "%Y-%m-%d %H-%M-%S")}
+                         'start_dt': "2016-02-01 08-00-00"}
 CONTEXTS['evening'] = {'exe': 'blender/evening.blend',
-                         'start_dt': datetime.strptime("2016-02-01 18-00-00", "%Y-%m-%d %H-%M-%S")}
+                         'start_dt': "2016-02-01 18-00-00"}
 
 def validate_dt(value):
     try:
